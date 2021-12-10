@@ -1,0 +1,67 @@
+body{
+    overflow-x: hidden;
+    position: relative;
+    background-color: rgb(55, 53, 75);
+}
+.heading{
+    color:white;
+    width:282px;
+    text-align: center;
+    font-size: 2.6rem;
+}
+.name{
+    color:rgb(108, 99, 255);
+}
+.box{
+    display:flex;
+    justify-content: center;
+}
+.box2{
+    display:flex;
+    justify-content: center;
+    margin:30px 0px;
+}
+table{
+    border: 3px dotted rgb(88, 82, 206);
+}
+th{
+    color:rgb(108, 99, 255);
+    font-size: 1.9rem;
+    padding: 14px 18px;
+}
+td{
+    color:white;
+    font-size: 1.6rem;
+    padding:14px 30px;
+    text-align: center;
+}
+.container3{
+    font-size:1.6rem;
+    color:white;
+    text-align: center;
+    width:1000px;
+}
+.box3{
+    display:flex;
+    justify-content: center;
+    margin:25px 0 10px 0;
+    border: 2px solid rgb(56,53,131);
+    box-shadow: 5px 10px 18px rgb(101,95,216);
+}
+.name{
+    animation-duration: 8s;
+    animation-name: slidein;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+}
+@keyframes slidein {
+    from{
+        margin-left: 100%;
+        width:200%;
+    }
+
+    to {
+        margin-left: 0%;
+        width:100%;
+    }
+}
