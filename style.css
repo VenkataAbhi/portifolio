@@ -65,3 +65,18 @@ td{
         width:100%;
     }
 }
+i{
+    font-size: 35px;
+    color:rgb(108, 99, 255);
+}
+
+.para1{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    bottom:5px;
+    margin: 10px auto;
+    color:rgb(108, 99, 255);
+    font-size: 30px;
+}
